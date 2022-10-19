@@ -11328,6 +11328,11 @@ p.lead {
   text-transform: uppercase;
   font-weight: 500;
   font-size: 1.5rem;
+  letter-spacing: .07em;
+}
+
+.subheading-about {
+  font-size: 2rem;
 }
 
 #sideNav {
@@ -11384,6 +11389,14 @@ p.lead {
     display: block;
   }
 }
+.contact-link {
+  display: flex;
+  align-items: flex-start;
+  justify-content: start;
+  height: 2.5rem;
+  border-radius: 100%;
+  font-size: 1.5rem;
+}
 .social-icons .social-icon {
   display: inline-flex;
   align-items: center;
@@ -11395,6 +11408,7 @@ p.lead {
   border-radius: 100%;
   font-size: 1.5rem;
   margin-right: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 .social-icons .social-icon:last-child {
   margin-right: 0;
