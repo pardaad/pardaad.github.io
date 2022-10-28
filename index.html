@@ -1,164 +1,518 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="Full-Stack Wordpress Developer based in Turkiye" />
-        <meta name="author" content="Mehdi Sharif" />
-        <title>Mehdi Sharif</title>
-        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
-        <!-- Font Awesome icons (free version)-->
-        <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
-        <!-- Google fonts-->
-        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
-        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
-    </head>
-    <body id="page-top">
-        <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
-            <a class="navbar-brand js-scroll-trigger" href="#page-top">
-                <span class="d-block d-lg-none">Mehdi Sharif</span>
-                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/profile.jpg" alt="Mehdi Sharif" /></span>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pardaad - Creative Website Development Team Based In Turkiye</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.png" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Mulish&family=Poppins:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/pardaad.jpg">
+
+</head>
+
+<body>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="https://pardaad.com/" class="logo"><img src="./assets/images/logo.png" width="277" height="60" alt="Pardaad Wordpress Development Team"></a>
+
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#home" class="navbar-link" data-nav-link>Home</a>
+          </li>
+
+          <li>
+            <a href="#portfolio" class="navbar-link" data-nav-link>Portfolio</a>
+          </li>
+
+          <li>
+            <a href="#price" class="navbar-link" data-nav-link>Price</a>
+          </li>
+
+          <li>
+            <a href="#news" class="navbar-link" data-nav-link>News</a>
+          </li>
+
+          <li>
+            <a href="#contact" class="navbar-link" data-nav-link>Contact</a>
+          </li>
+
+        </ul>
+      </nav>
+
+      <button class="nav-toggle-btn" aria-label="toggle menu" data-nav-toggler>
+        <span class="line line-1"></span>
+        <span class="line line-2"></span>
+        <span class="line line-3"></span>
+      </button>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero" id="home" aria-label="hero">
+        <div class="container">
+
+          <figure class="hero-banner img-holder has-before" style="--width: 640; --height: 840;">
+            <img src="./assets/images/pardaad.jpg" width="640" height="840" alt="Pardaad Wordpress Development Team" class="img-cover">
+          </figure>
+
+          <div class="hero-content">
+
+            <p class="section-subtitle">Pardaad Wordpress Development Team</p>
+
+            <h1 class="h1 hero-title">Creative Website Development Team Based In Turkiye</h1>
+
+            <ul class="hero-list">
+
+              <li>
+                <a href="#" class="list-link">
+                  <span class="span">Website Development</span>
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="list-link">
+                  <span class="span">WP Plugin Development</span>
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                </a>
+              </li>
+
+            </ul>
+
+            <ul class="exp-list">
+
+              <li class="list-item">
+                <strong class="strong">18+</strong>
+
+                <span class="span">
+                  Years of<br>
+                  Experience
+                </span>
+              </li>
+
+              <li class="list-item">
+                <a href="https://www.linkedin.com/in/mehdi-sharif/" target="_blank" class="strong social-link">
+                  <ion-icon name="logo-linkedin"></ion-icon>
+                </a>
+
+                <span class="span">
+                  linkedin<br>
+                  Profile
+                </span>
+              </li>
+
+              <li class="list-item">
+                <a href="https://github.com/pardaad-com" target="_blank" class="strong social-link">
+                  <ion-icon name="logo-github"></ion-icon>
+                </a>
+
+                <span class="span">
+                  Github<br>
+                  Repositories
+                </span>
+              </li>
+
+            </ul>
+
+            <a href="#portfolio" class="slide-down-btn" aria-label="scroll down">
+              <ion-icon name="arrow-down" aria-hidden="true"></ion-icon>
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav">
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
-                </ul>
-            </div>
-        </nav>
-        <!-- Page Content-->
-        <div class="container-fluid p-0">
-            <!-- About-->
-            <section class="resume-section" id="about">
-                <div class="resume-section-content">
-                    <h1 class="mb-0">
-                        Mehdi
-                        <span class="text-primary">Sharif</span>
-                    </h1>
-                    <div class="subheading subheading-about mb-5">
-                        Full-Stack Wordpress Developer
-                    </div>
-                    <ul class="lead mb-5">
-                       <li>I am an experienced Full-Stack Wordpress Developer with experience working on APIs and complex web services.</li>
-                       <li>I have been working with WordPress/PHP for the last 12+ years.</li>
-                       <li>I am object-oriented and like to keep things in order with version control.</li>
-                    </ul>
-                    <div class="social-icons">
-                        <a class="social-icon" href="https://www.linkedin.com/in/mehdi-sharif/"><i class="fab fa-linkedin-in"></i></a>
-                        <a class="social-icon" href="https://github.com/pardaad"><i class="fab fa-github"></i></a>
-                        <a class="social-icon" href="https://twitter.com/mehdisharif"><i class="fab fa-twitter"></i></a>
-                        <!-- <a class="social-icon" href="#!"><i class="fab fa-facebook-f"></i></a> -->
-                    </div>
-                    <div class="contact-link">Whatsapp: &nbsp;<a href="http://Wa.me/905466532426">+90-546-6532426</a></div>
-                    <div class="contact-link">E-mail: &nbsp;<a class="contact-link" href="mailto:mehdi@pardaad.com">mehdi@pardaad.com</a></div>
-                </div>
-            </section>
-            <hr class="m-0" />
-            <!-- Experience-->
-            <section class="resume-section" id="experience">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Experience</h2>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Full-Stack Wordpress Developer</h3>
-                            <div class="subheading mb-3">FreelanceFreelance</div>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">Mar 2020 - Present</span></div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Full-Stack Wordpress Developer</h3>
-                            <div class="subheading mb-3">Sharif's Solutions · Full-time</div>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">Jun 2018 - Feb 2020 · 1 yr 9 mos</span></div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Senior Web Developer</h3>
-                            <div class="subheading mb-3">Smart Arjang Co. · Full-time</div>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">Dec 2015 - May 2018 · 2 yrs 6 mos</span></div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">WordPress Developer</h3>
-                            <div class="subheading mb-3">Pardaad ICT Co. · Full-time</div>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">Feb 2011 - Nov 2015 - 4 yrs 10 mos</span></div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Junior Web Developer</h3>
-                            <div class="subheading mb-3">Ghasedak System Co. · Full-time</div>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">Nov 2008 - Jan 2011 · 2 yrs 3 mos</span></div>
-                    </div>
-                </div>
-            </section>
-            <hr class="m-0" />
-            <!-- Education-->
-            <section class="resume-section" id="education">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Education</h2>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Mahan Business School</h3>
-                            <div class="subheading mb-3">Master of Business Administration - MBA</div>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">2016 - 2018</span></div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">University of Guilan</h3>
-                            <div class="subheading mb-3">Bachelor's degree, Computer Software Engineering</div>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">2011 - 2015</span></div>
-                    </div>
-                </div>
-            </section>
-            <hr class="m-0" />
-            <!-- Skills-->
-            <section class="resume-section" id="skills">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Skills</h2>
-                    <div class="subheading mb-3">Programming Languages & Tools</div>
-                    <ul class="list-inline dev-icons">
-                        <li class="list-inline-item"><i class="fab fa-html5"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-css3-alt"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-js-square"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-wordpress"></i></li>
-                    </ul>
-                    <div class="subheading mb-3">Workflow</div>
-                    <ul class="fa-ul mb-0">
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Mobile-First, Responsive Design
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Cross Browser Testing & Debugging
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Cross Functional Teams
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Agile Development & Scrum
-                        </li>
-                    </ul>
-                </div>
-            </section>
+
+          </div>
+
         </div>
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-    </body>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #PORTFOLIO
+      -->
+
+      <section class="section portfolio" id="portfolio" aria-label="portfolio">
+        <div class="container">
+
+          <p class="section-subtitle">Portfolio</p>
+
+          <h2 class="h2 section-title">Selected Works</h2>
+
+          <ul class="has-scrollbar">
+
+            <li class="scrollbar-item">
+              <div class="card">
+
+                <figure class="card-banner img-holder" style="--width: 600; --height: 675;">
+                  <img src="./assets/images/traderscombat.jpg" width="600" height="675" loading="lazy" alt="Traders Combat"
+                    class="img-cover">
+                </figure>
+
+                <a href="https://traderscombat.com" rel="nofollow" target="_blank" class="card-content">
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+
+                  <h3 class="h3 card-title">Traders Combat</h3>
+
+                  <p class="card-text">A professional forex trading competition platform</p>
+
+                </a>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="card">
+
+                <figure class="card-banner img-holder" style="--width: 600; --height: 675;">
+                  <img src="./assets/images/tradingdemy.jpg" width="600" height="675" loading="lazy" alt="Tradingdemy"
+                    class="img-cover">
+                </figure>
+
+                <a href="https://tradingdemy.com/courses/forex-course/" rel="nofollow" target="_blank" class="card-content">
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+
+                  <h3 class="h3 card-title">Tradingdemy</h3>
+
+                  <p class="card-text">A professional online training system for trading in financial markets</p>
+
+                </a>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="card">
+
+                <figure class="card-banner img-holder" style="--width: 600; --height: 675;">
+                  <img src="./assets/images/sunwaysms.jpg" width="600" height="675" loading="lazy" alt="SunWay SMS"
+                    class="img-cover">
+                </figure>
+
+                <a href="https://sunwaysms.com/" rel="nofollow" target="_blank" class="card-content">
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+
+                  <h3 class="h3 card-title">SunWay SMS</h3>
+
+                  <p class="card-text">A company providing SMS services in Iran</p>
+
+                </a>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+      <!-- 
+        - #PRICING
+      -->
+
+      <section class="section pricing" id="price" aria-label="price">
+        <div class="container">
+
+          <div class="pricing-content">
+
+            <p class="section-subtitle">Pricing</p>
+
+            <h2 class="h2 section-title">Service Prices</h2>
+
+            <p class="section-text">
+              For more than 18 years our experts have been accomplishing enough with modern Web Development, new
+              generation web and
+              app programming language.
+            </p>
+
+          </div>
+
+          <ul class="pricing-list">
+
+            <li>
+              <div class="pricing-card">
+
+                <h3 class="card-title">Company Website</h3>
+
+                <data class="card-price" value="500">$500</data>
+              </div>
+            </li>
+
+            <li>
+              <div class="pricing-card">
+
+                <h3 class="card-title">Ecommerce Website</h3>
+
+                <data class="card-price" value="700">$700</data>
+              </div>
+            </li>
+
+            <li>
+              <div class="pricing-card">
+
+                <h3 class="card-title">WP Plugin Development</h3>
+
+                <data class="card-price" value="300">From $1000</data>
+              </div>
+            </li>
+
+            <li>
+              <div class="pricing-card">
+
+                <h3 class="card-title">Divi Theme Lifetime License</h3>
+
+                <data class="card-price" value="25">$25</data>
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #NEWS
+      -->
+
+      <section class="section news" id="news" aria-label="news">
+        <div class="container">
+
+          <p class="section-subtitle">News</p>
+
+          <h2 class="h2 section-title">Latest News</h2>
+
+          <ul class="has-scrollbar">
+
+            <li class="scrollbar-item">
+              <div class="card news-card">
+
+                <figure class="card-banner img-holder" style="--width: 600; --height: 675;">
+                  <img src="./assets/images/elementor-sms.jpg" width="600" height="675" loading="lazy"
+                    alt="Pardaad Elementor SMS AddOn Released" class="img-cover">
+                </figure>
+
+                <a href="https://github.com/pardaad-com/pardaad-sms" rel="nofollow" target="_blank" class="card-content">
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+
+                  <time class="card-text" datetime="2022-10-18">October 18, 2022</time>
+
+                  <h3 class="h3 card-title">Pardaad Elementor SMS AddOn Released</h3>
+
+                </a>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="card news-card">
+
+                <figure class="card-banner img-holder" style="--width: 600; --height: 675;">
+                  <img src="./assets/images/laravel.jpg" width="600" height="675" loading="lazy"
+                    alt="Pardaad Laravel SMS Released" class="img-cover">
+                </figure>
+
+                <a href="https://github.com/pardaad-com/sms-driver-rest-api" rel="nofollow" target="_blank" class="card-content">
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+
+                  <time class="card-text" datetime="2022-10-16">October 16, 2022</time>
+
+                  <h3 class="h3 card-title">Pardaad Laravel SMS Released</h3>
+
+                </a>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="card news-card">
+
+                <figure class="card-banner img-holder" style="--width: 600; --height: 675;">
+                  <img src="./assets/images/wordpress-api.jpg" width="600" height="675" loading="lazy"
+                    alt="SunWay SMS And Wordpress Connection Module Released" class="img-cover">
+                </figure>
+
+                <a href="https://sunwaysms.com" rel="nofollow" target="_blank" class="card-content">
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+
+                  <time class="card-text" datetime="2022-07-05">July 05, 2022</time>
+
+                  <h3 class="h3 card-title">SunWay SMS And Wordpress Connection Module Released</h3>
+
+                </a>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #CONTACT
+      -->
+
+      <section class="section contact" id="contact" aria-label="contact">
+        <div class="container">
+
+          <div class="contact-content">
+
+            <p class="section-subtitle">Contact</p>
+
+            <h2 class="h2 section-title">Get In Touch</h2>
+
+            <p class="section-text">
+              Please feel free to contact with us
+            </p>
+
+
+
+          </div>
+
+          <ul class="contact-list">
+
+            <li class="contact-item">
+              <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+
+              <address class="contact-link">
+                Konyaalti, Antalya, Turkiye
+              </address>
+            </li>
+
+            <li class="contact-item">
+              <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+
+              <a href="http://wa.me/905466532426" class="contact-link">+90 546 653 2426</a>
+            </li>
+
+            <li class="contact-item">
+              <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+
+              <a href="mailto:hi@pardaad.com" class="contact-link">hi@pardaad.com</a>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container">
+
+      <p class="copyright">
+        &copy; 2022. All rights reserved by <a href="https://pardaad.com" class="copyright-link">Pardaad Dev Team.</a>
+      </p>
+
+      <ul class="social-list">
+
+        <li>
+          <a href="https://facebook.com/pardaad" target="_blank" class="social-link">
+            <ion-icon name="logo-facebook"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="https://github.com/pardaad-com" target="_blank" class="social-link">
+            <ion-icon name="logo-github"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="https://www.linkedin.com/in/mehdi-sharif/" target="_blank" class="social-link">
+            <ion-icon name="logo-linkedin"></ion-icon>
+          </a>
+        </li>
+
+      </ul>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js" defer></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
 </html>
