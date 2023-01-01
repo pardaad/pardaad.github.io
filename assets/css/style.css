@@ -377,7 +377,6 @@ body::-webkit-scrollbar-thumb {
 .slide-down-btn { display: none; }
 
 .hero {
-  background-color: var(--cultured);
   padding-block-start: calc(var(--section-padding) + 30px);
 }
 
@@ -433,6 +432,19 @@ body::-webkit-scrollbar-thumb {
 
 .exp-list .span { font-size: var(--fs-13); }
 
+
+
+
+
+/*-----------------------------------*\
+  #ABOUT
+\*-----------------------------------*/
+
+.about { background-color: var(--cultured); }
+
+.about .section-text {
+  margin-block: 20px 25px;
+}
 
 
 
@@ -1058,4 +1070,21 @@ textarea.input-field {
 
   .hero-banner { width: 275px; }
 
+}
+
+
+
+.btn {
+  margin-top: 20px;
+  background: var(--black);
+  display: inline-block;
+  color: var(--white);
+  padding: 10px 20px;
+  border-radius: var(--radius-10);
+  box-shadow: var(--shadow);
+}
+
+.btn:hover {
+  background: var(--theme-color);
+  color: var(--white);
 }
