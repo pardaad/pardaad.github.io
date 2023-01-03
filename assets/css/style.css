@@ -582,7 +582,6 @@ body::-webkit-scrollbar-thumb {
   #CONTACT
 \*-----------------------------------*/
 
-.contact { background-color: var(--cultured); }
 
 .contact-list { margin-block: 40px 50px; }
 
@@ -1088,3 +1087,5 @@ textarea.input-field {
   background: var(--theme-color);
   color: var(--white);
 }
+
+.news { background-color: var(--cultured); }
