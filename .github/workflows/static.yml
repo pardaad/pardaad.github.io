@@ -1,4 +1,3 @@
-# Deploy static content to GitHub Pages using peaceiris/actions-gh-pages
 name: Deploy static content to Pages
 
 on:
@@ -22,18 +21,8 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
 
-      - name: Setup Node.js (optional)
-        uses: actions/setup-node@v3
-        with:
-          node-version: '16'
-
-      - name: Build (optional)
-        run: |
-          npm ci
-          npm run build
-
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: .  # تمام محتوا را از ریشه ریپو منتشر می‌کند
+          publish_dir: .  # یا public/ یا build/ بسته به پروژه‌ات
